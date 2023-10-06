@@ -1,0 +1,215 @@
+/* common section start */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,
+p,ul,ol{
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.section_info h2{
+    font-weight: 800;
+    font-size: 46px;
+    color: #02918c;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+.section_info p{
+    font-size: 16px;
+    line-height: 41px;
+    color: #7e8287;
+}
+/* common section end */
+/* nav section start */
+#primary-nav{
+    background-color: #02918c;
+}
+#primary-nav #menu ul li a{
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffff;
+    padding: 13.5px 25px;
+    display: inline-block;
+    
+}
+/* nav section end */
+/* banner section start */
+#banner{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/logo11.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 728px;
+}
+#banner h1{
+    font-size: 68px;
+    color: #ffff;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+#banner h3{
+    font-size: 30px;
+    color: #ffff;
+    font-weight: 800;
+}
+#banner  p{
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 800;
+}
+#banner img{
+    margin: 45px 0px;
+}
+#banner a{
+    color: black;
+    display: inline-block;
+    background-color: #cfc91d;
+    padding: 14px 57px;
+    font-size: 16px;
+    font-weight: 800;
+}
+/* banner section end */
+/* about section start */
+#about{
+    margin-bottom: 100px;
+}
+#about .section_info p b{
+    font-size: 23px;
+}
+
+
+#about .about_cards{
+    margin-top: 50px;
+}
+
+#about .about_card{
+    border-right: 1px solid #ccc;
+    padding: 36px 0;
+}
+
+#about .about_card span{
+    font-size: 30px;
+    color: #02918c;
+}
+
+#about .about_card h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    margin: 28px 0;
+}
+
+#about .about_card p{
+    color: #7e8287;
+    font-size: 11px;
+    line-height: 16.5px;
+}
+
+#about .about_card:last-child {
+    border: none;
+    
+}
+
+/* about section end */
+/* service section start */
+#services .section_info h2{
+    margin-top: 0px;
+}
+#services{
+    padding: 40px 0px;
+    background-image: url(./../img/recover.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.services_card{
+    padding-top: 40px;
+}
+.services_card span{
+    font-size: 30px;
+    color: #02918c;
+}
+
+.services_card h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    margin: 15px 0px;
+
+}
+.services_card p{
+    color: #7e8287;
+    font-size: 11px;
+    line-height: 16.5px;
+}
+/* service section end */
+/* mywork section start */
+#pic{
+    padding-top: 60px;
+    width: 100%;
+}
+#pic .pic_card{
+    position: relative;
+}
+#pic .pic_card .overlay{
+    background-color: #02918cb4;
+    position: absolute;
+    inset: 20px;
+    color: #ffff;
+    text-align: center;
+    padding-top: 70px 0;
+    transform: scale(0);  
+
+}
+#pic .pic_card h4{
+    padding-top: 50px;
+    font-size: 20px;
+}
+#pic .pic_card:hover .overlay{
+    transition: 0.5s;
+    transform: scale(1);
+}
+/* mywork section end */
+/* contact me section start */
+#contact-me .contact-form{
+    background-color: #0b0b0b;
+    margin-top: 40px;
+}
+#contact-me .contact-form input{
+    margin: 30px;
+    padding: 18px;
+    color: #7e8287;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #7e8287 ;
+    
+}
+#contact-me .contact-form input:focus{
+    outline: none;
+    border-bottom-color: #ffff;
+}
+#contact-me .contact-form button{
+    color: black;
+    background-color: #cfc91d;
+    padding: 18px 82px;
+    font-weight: 800;
+    border: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin: 30px 0px;
+
+}
+/* contact me section end */
+/* footer section start */
+footer{
+    background-color: #000000;
+    padding: 30px 0px;
+    color: #7e8287;
+}
+/* footer section end */
